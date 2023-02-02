@@ -18,7 +18,7 @@ I've started learning JavaScript, so in this small prject I builded a money coun
 
 ### Screenshot
 
-![](./money_counter.png)
+![](./images//money_counter.png)
 
 ### Built with
 
