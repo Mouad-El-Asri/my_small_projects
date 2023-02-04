@@ -44,9 +44,18 @@ I focused here on what I've learned in JavaScript so far :
 ### Useful resources
 
 - [Google fonts](https://fonts.google.com/) - This helped me to get suitable fonts for almost all my projects.
-- [https://coolors.co/](https://www.example.com) - This is an amazing website. I'd recommend it to anyone who's looking for colors paletes.
+- [coolors](https://coolors.co/) - This is an amazing website. I'd recommend it to anyone who's looking for colors paletes.
 
 ## Author
 
 - LinkedIn - [Mouad El Asri](https://www.linkedin.com/in/mouad-el-asri/)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+## Thanks
+
+If you liked this project, don't forget to give it a ⭐.
+
+## Supporting
+Many hours of hard work have gone into this project. Your support will be very appreciated!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/elasrimouad)
