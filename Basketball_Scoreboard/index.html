@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basketball Scoreboard</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+            rel="stylesheet"
+        />
+		<link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main-div">
+            <div>
+                <h1 id="home">HOME</h1>
+                <div class="score-counter">
+                    <h2 id="home-score">0</h2>
+                </div>
+                <div>
+                    <button onclick="home_add_one()">+1</button>
+                    <button onclick="home_add_two()">+2</button>
+                    <button onclick="home_add_three()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1 id="guest">GUEST</h1>
+                <div class="score-counter">
+                    <h2 id="guest-score">0</h2>
+                </div>
+                <div>
+                    <button onclick="guest_add_one()">+1</button>
+                    <button onclick="guest_add_two()">+2</button>
+                    <button onclick="guest_add_three()">+3</button>
+                </div>
+            </div>
+        </div>
+		<button class="reset_button" onclick="reset()">Reset</button>
+		<script src="./app.js"></script>
+    </body>
+</html>

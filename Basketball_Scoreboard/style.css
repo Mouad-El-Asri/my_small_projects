@@ -1,0 +1,130 @@
+/* primary font family */
+
+@font-face {
+	font-family: "CursedTimerUlil";
+	src: url("CursedTimerUlil.ttf") format("truetype");
+}
+
+/* Custom Properties */
+
+:root {
+    --ff-primary: "CursedTimerUlil", sans-serif;
+    --ff-secondary: "Roboto", monospace;
+    --fw-bold: 900;
+    --light-clr: #fff;
+    --light-grey-clr: #ced4da;
+    --dark-clr: #101010;
+    --accent-clr: #ff4d6d;
+    --h1-fs: 3rem;
+    --h2-fs: 2.25rem;
+    --fs-body: 5rem;
+}
+
+/* General styles */
+
+body {
+	background: #0f0c29;
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    font-family: var(--ff-secondary);
+	margin: 0;
+	color: var(--light-clr);
+	line-height: 1.6;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+	font-weight: var(--fw-bold);
+	color: var(--light-grey-clr);
+	font-size: var(--h1-fs);
+	padding: 5px 10px;
+}
+
+h2 {
+	font-size: var(--h2-fs);
+}
+
+/* body */
+
+.main-div {
+	width: 75%;
+	margin: auto;
+	margin-top: 25rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 2px solid var(--light-grey-clr);
+	border-radius: 10px;
+	padding: 2.5rem;
+}
+
+.main-div button {
+	font-family: var(--ff-primary);
+	color: var(--light-grey-clr);
+	background-color: inherit;
+	border: 1px solid var(--light-grey-clr);
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.main-div button + button {
+	margin-left: 8px;
+}
+
+.score-counter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 120px;
+	background-color: var(--dark-clr);
+	border: none;
+	border-radius: 5px;
+	font-family: var(--ff-primary);
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.score-counter h2 {
+	color: var(--accent-clr);
+	font-size: var(--fs-body);
+}
+
+.reset_button {
+	font-size: 1.3rem;
+	padding: 4px 12px;
+	background-color: inherit;
+	color: var(--light-grey-clr);
+	margin-top: 2rem;
+	border: 2px solid var(--light-grey-clr);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.highlight_teams {
+	background-color: #ffba08;
+	border: none;
+	border-radius: 5px;
+	color: var(--light-clr);
+}
+
+.highlight_winner {
+	background-color: #70e000;
+	border: none;
+	border-radius: 5px;
+	color: var(--light-clr);
+}
+
+.highlight_loser {
+	background-color: #d90429;
+	border: none;
+	border-radius: 5px;
+	color: var(--light-clr);
+}
