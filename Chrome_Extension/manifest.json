@@ -1,0 +1,16 @@
+{
+    "name": "Save It Easy",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Save and organize all your favorite websites!",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "saveItEasy-icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "128": "saveItEasy-icon.png"
+    }
+}
