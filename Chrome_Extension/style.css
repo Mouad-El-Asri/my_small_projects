@@ -1,8 +1,9 @@
 body {
 	margin: 0;
-	padding: 10px;
+	padding: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
+	min-width: 400px;
 }
 
 input {
@@ -17,8 +18,28 @@ input {
 button {
 	background-color: #00babc;
 	color: #F0F8FF;
-	border: none;
+	border: 2px solid #00babc;
 	padding: 10px 15px;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+#delete-btn {
+	background-color: #FFFFFF;
+	color: #00babc;
+}
+
+ul {
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	margin-top: 5px;
+	font-size: 1rem;
+}
+
+a {
+	color: #00babc;
 }
